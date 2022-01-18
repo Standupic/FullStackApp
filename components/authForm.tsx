@@ -36,7 +36,7 @@ const AuthForm: FC<{mode: 'signin' | 'signup'}> = ({mode}) => {
                             placeholder="password"
                             type="password"
                             autoComplete="off"
-                            onChange={(e)=>{setEmail(e.target.value)}}/>
+                            onChange={(e)=>{setPassword(e.target.value)}}/>
                         <Button 
                             type="submit" 
                             bg="green.500" 
